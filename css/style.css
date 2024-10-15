@@ -189,6 +189,40 @@ header label {
     margin-top: 20px;
 }
 
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact, .social-media {
+    width: 45%;
+}
+
+.contact h3, .social-media h3 {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 @media(max-width:991px) {
     header {
         padding: 20px;
